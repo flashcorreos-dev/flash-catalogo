@@ -153,7 +153,7 @@ function vitePluginManusDebugCollector(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? "/flash-catalogo-store-opcion-b/" : "/",
+  base: process.env.GITHUB_ACTIONS ? "/flash-catalogo/" : "/",
   plugins,
   resolve: {
     alias: {
