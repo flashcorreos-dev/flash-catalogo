@@ -20,6 +20,7 @@ const FAQS = [
   ["¿Emiten facturas?", "Sí, sólo emitimos Factura C."],
   ["¿Cuánto demora la entrega?", "El tiempo depende de la disponibilidad y del destino. Te confirmamos los detalles al coordinar tu pedido."],
   ["¿Qué medios de pago aceptan?", "Solamente trabajamos con transferencia y depósito bancario."],
+  ["¿Cómo selecciono los diseños y colores?", "Los colores y diseños de nuestros artículos se envían en modelos surtidos, variando según la disponibilidad de stock al momento de armar el pedido y la cantidad solicitada."],
 ] as const;
 const categories = [{ slug: "all", name: "Todos los productos", match: "" }, { slug: "collares", name: "Collares", match: "collar" }, { slug: "correas", name: "Correas", match: "correa" }, { slug: "manoplas", name: "Manoplas", match: "manopla" }, { slug: "bozales", name: "Bozales", match: "bozal" }, { slug: "arneses", name: "Arneses", match: "arnes" }, { slug: "pretales", name: "Pretales", match: "pretal" }, { slug: "sets", name: "Combos", match: "set" }];
 const materialsList = ["Polipropileno", "Nato", "Cuero económico", "Cuero", "Sublimado", "Camuflado", "Strass", "Fantasía"];
