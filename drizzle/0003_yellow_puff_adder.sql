@@ -1,0 +1,1 @@
+ALTER TABLE `orderStatusHistory` ADD `isInternal` boolean DEFAULT false NOT NULL;
