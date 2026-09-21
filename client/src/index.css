@@ -441,7 +441,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 @media (max-width: 560px) { .admin-message-fields { grid-template-columns: 1fr; } .admin-message-detail { grid-column: span 1; } .admin-message-actions > button { flex: 1; } }
 @media (max-width: 560px) { .admin-copy-grid { grid-template-columns: 1fr 1fr; } .admin-copy-field:last-of-type { grid-column: span 2; } .admin-load-order { grid-column: span 2; } .admin-message-products-heading { align-items: flex-start; flex-direction: column; } .admin-message-product-row { grid-template-columns: 1.5rem minmax(0, 1fr) 4.5rem 2rem; } }
 
-/* OPCION B: capas seguras para filtros y carrito */
+/* Capas seguras para filtros y carrito */
 .cart-drawer { z-index: 1; overflow: hidden; }
 .cart-drawer > div { min-height: 0; }
 @media (max-width: 1023px) { .filters-panel { display: none; } .catalog-layout-open .filters-panel { display: block; } }
