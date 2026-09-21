@@ -25,9 +25,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: pnpm
       - name: Activar pnpm
         run: corepack enable
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
       - name: Instalar dependencias
         run: pnpm install --frozen-lockfile
       - name: Compilar sitio estático
